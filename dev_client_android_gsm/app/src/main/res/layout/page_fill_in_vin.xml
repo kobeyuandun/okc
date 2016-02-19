@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#eeeeee"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_register_fill_in_text"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/et_fill_in_car"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_inputbox"
+            android:hint="@string/login_register_fill_in_car"
+            android:singleLine="true"
+            android:textColorHint="#A6A7A7"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_chose_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/bg_next"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/login_register_fill_in_vin"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/et_fill_in_vin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_inputbox"
+            android:hint="@string/login_register_fill_in_vin"
+            android:singleLine="true"
+            android:textColorHint="#A6A7A7"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_chose_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/btn_fill_in_vin_question"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_retrieve_password"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/login_register_finish_register"
+        android:textColor="#ffffff"
+        android:textSize="13sp"/>
+</LinearLayout>

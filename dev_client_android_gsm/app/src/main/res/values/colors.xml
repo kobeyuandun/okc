@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="white">#ffffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#ff000000</color>
+
+    <color name="theme_title_text_color">#000000</color>
+
+
+    <color name="theme_blue">#37c7fd</color>
+    <color name="theme_gray">#E1E2E3</color>
+    <color name="theme_gray_dark">#cccccc</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="gray_text">#888888</color>
+    <color name="black_text">#555555</color>
+    <color name="background">#eeeeee</color>
+    <color name="gray_line">#dddddd</color>
+
+    <!-- MainPage -->
+    <color name="tab_text_main_pressed">#25c1b2</color>
+    <color name="tab_text_main_normal">#353535</color>
+
+
+</resources>

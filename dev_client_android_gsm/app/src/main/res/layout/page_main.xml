@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/base_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/v_tab_line_main"/>
+
+    <View
+        android:id="@+id/v_tab_line_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_line_main"
+        android:layout_above="@+id/rg_tab_main"
+        android:background="@drawable/bg_tab_main_line"/>
+
+    <RadioGroup
+        android:id="@+id/rg_tab_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_tab_main"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/tab_line_margin"
+        android:paddingTop="@dimen/tab_line_margin">
+
+        <RadioButton
+            android:id="@+id/rb_route"
+            style="@style/TabMainPage"
+            android:checked="true"
+            android:drawableTop="@drawable/ic_tab_route"
+            android:text="@string/main_text_route"/>
+
+        <RadioButton
+            android:id="@+id/rb_vehicleCondition"
+            style="@style/TabMainPage"
+            android:drawableTop="@drawable/ic_tab_condition"
+            android:text="@string/main_text_vehicle_condition"/>
+
+        <RadioButton
+            android:id="@+id/rb_examinations"
+            style="@style/TabMainPage"
+            android:drawableTop="@drawable/ic_tab_examination"
+            android:text="@string/main_text_examination"/>
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/TabMainPage"
+            android:drawableTop="@drawable/ic_tab_mine"
+            android:text="@string/main_text_mine"/>
+    </RadioGroup>
+
+</RelativeLayout>

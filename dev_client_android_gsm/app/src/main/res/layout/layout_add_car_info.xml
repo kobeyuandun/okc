@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_add_car_info_text"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/et_fill_in_car"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_inputbox"
+            android:hint="@string/login_add_car_info_chose_car"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColorHint="#A6A7A7"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_chose_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/bg_next"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_province"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_inputbox"
+            android:gravity="center"
+            android:text="京"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_chose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tv_province"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_car_code"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/et_fill_in_car_code"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_inputbox"
+            android:hint="@string/login_add_car_info_car_code"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:textColorHint="#A6A7A7"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_retrieve_password"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/login_register_finish_register"
+        android:textColor="#ffffff"
+        android:textSize="13sp"/>
+</LinearLayout>
