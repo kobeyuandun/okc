@@ -1,206 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2292435a-8553-4ef4-8cd5-228ce0d517d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_jnavicore_resources_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_data_resources_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_deps_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_resources_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_22_2_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_jnavicore_resources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd_data_resources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd_deps.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd_resources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/design_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/armeabi/libobd.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/com.mapbar.obd.deps.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/com.mapbar.obd.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/com_mapbar_jnavicore_resources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/com_mapbar_obd_data_resources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/com_mapbar_obd_resources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/OBDApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/AdapterContorller.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/AdapterObd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/DataAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/RecyclerAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/RecyclerAdapterController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/RecyclerDataAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/DataCallback.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/Request.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/Response.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/Configs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/GlobalConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/LayoutUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/MainThreadPostUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/StringUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/TimeUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/ViewUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/PageManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/SDKManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/activity/BaseActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/activity/CConfigs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/DynamicHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/ViewFinder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/ViewInjectTool.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ContentView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/EventBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/OnClick.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ViewInject.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/Log.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogAction.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogCustomTag.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogRA.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogRule.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogTag.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogTagInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/ActivityInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/AppPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/FilterObj.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/MAnimation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/PageInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/PageObject.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/PageRestoreData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/SampleActivityInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MLinearLayout.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MListView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MListViewAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MSectorButton.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MViewAnimator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MyAnimation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/NoResizeRelativeLayout.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/AddCarInfoPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/BindingDeviceInfoPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/BindingDevicePage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/CarInfoPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/ExaminationsPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/FillInVinPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/LoginPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/MainPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/MinePage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/RegisterPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/RetrievePasswordPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/Routepage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/SettingPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/TabPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/TestPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/VehicleConditionPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/base_title_back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_list_item_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_list_item_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_arrows.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_attention.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_chekuang_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_chekuang_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_code.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_me_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_me_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_next.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_next_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_question.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_question_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_question_p.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_scan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_slect.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_slect_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tijian_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tijian_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_user.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_xingcheng_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_xingcheng_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/layout_login.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shadow_top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_car_code.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_inputbox.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_list_item.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_next.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_tab_main.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_tab_main_line.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_fill_in_vin_question.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_green.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_login.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_login_n.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_login_p.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_question.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/color_tab_text.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_condition.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_examination.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_mine.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_route.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_add_car_info.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_examination.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_mine.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_route.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_vehicle_codition.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_binding_device.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_binding_device_info.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_car_info.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_fill_in_vin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_login.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_register.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_retrieve_password.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_setting.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_splash.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens_text.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dev_client_android_gsm.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/key/mapbar2009.keystore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
-    </list>
+    <list default="true" id="2292435a-8553-4ef4-8cd5-228ce0d517d1" name="Default" comment="" />
     <ignored path="dev_client_android_gsm.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,20 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LayoutUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/LayoutUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainThreadPostUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/MainThreadPostUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="0">
               <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
               <folding />
             </state>
@@ -326,8 +117,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="266">
+              <caret line="14" column="76" lean-forward="true" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -1605,6 +1396,11 @@
             <path>
               <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -1867,6 +1663,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1878,7 +1675,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1961,7 +1758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/MainThreadPostUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="0">
           <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
           <folding />
         </state>
@@ -2237,14 +2034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1607">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -2317,10 +2106,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="2119" column="87" lean-forward="true" selection-start-line="2119" selection-start-column="87" selection-end-line="2119" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="266">
+          <caret line="14" column="76" lean-forward="true" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
           <folding />
         </state>
       </provider>
