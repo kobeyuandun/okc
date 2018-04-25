@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="com.mapbar.obd.deps">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/com.mapbar.obd.deps.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
