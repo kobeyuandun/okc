@@ -1,7 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2292435a-8553-4ef4-8cd5-228ce0d517d1" name="Default" comment="" />
+    <list default="true" id="2292435a-8553-4ef4-8cd5-228ce0d517d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_jnavicore_resources_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_data_resources_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_deps_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____GitRepository_ydb_okc_dev_client_android_gsm_app_libs_com_mapbar_obd_resources_jar_unspecified_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_22_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_jnavicore_resources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd_data_resources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd_deps.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_mapbar_obd_resources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/design_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/libs/armeabi/libobd.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/libs/com.mapbar.obd.deps.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/libs/com.mapbar.obd.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/libs/com_mapbar_jnavicore_resources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/libs/com_mapbar_obd_data_resources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/libs/com_mapbar_obd_resources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/OBDApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/AdapterContorller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/AdapterObd.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/DataAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/RecyclerAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/RecyclerAdapterController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/adapter/RecyclerDataAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/DataCallback.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/Request.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/Response.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/Configs.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/GlobalConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/LayoutUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/MainThreadPostUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/StringUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/TimeUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/ViewUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/PageManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/SDKManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/activity/BaseActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/control/activity/CConfigs.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/DynamicHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/ViewFinder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/ViewInjectTool.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ContentView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/EventBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/OnClick.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ViewInject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/Log.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogCustomTag.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogRA.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogRule.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogTag.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/log/LogTagInterface.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/ActivityInterface.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/AppPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/FilterObj.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/MAnimation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/PageInterface.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/PageObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/PageRestoreData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/model/SampleActivityInterface.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MLinearLayout.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MListView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MListViewAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MSectorButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MViewAnimator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/MyAnimation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/widget/NoResizeRelativeLayout.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/AddCarInfoPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/BindingDeviceInfoPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/BindingDevicePage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/CarInfoPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/ExaminationsPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/FillInVinPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/LoginPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/MainPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/MinePage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/RegisterPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/RetrievePasswordPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/Routepage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/SettingPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/TabPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/TestPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/VehicleConditionPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/base_title_back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_list_item_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_list_item_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_arrows.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_attention.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_chekuang_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_chekuang_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_code.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_me_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_me_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_next.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_next_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_question.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_question_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_question_p.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_scan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_slect.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_slect_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tijian_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tijian_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_xingcheng_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_xingcheng_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/layout_login.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shadow_top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_car_code.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_inputbox.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_list_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_next.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_tab_main.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_tab_main_line.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_fill_in_vin_question.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_green.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_login.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_login_n.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_login_p.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_question.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/color_tab_text.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_condition.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_examination.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_mine.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tab_route.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_add_car_info.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_examination.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_mine.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_route.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_vehicle_codition.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_binding_device.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_binding_device_info.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_car_info.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_fill_in_vin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_login.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_register.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_retrieve_password.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_setting.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_splash.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens_text.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dev_client_android_gsm.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/key/mapbar2009.keystore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
+    </list>
     <ignored path="dev_client_android_gsm.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,52 +229,95 @@
     <favorites_list name="dev_client_android_gsm" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/net/Response.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LayoutUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/LayoutUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/fram/BaseView.java">
+      <file leaf-file-name="MainThreadPostUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/MainThreadPostUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/EventBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnClick.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/OnClick.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/LoginPage.java">
+      <file leaf-file-name="ViewInject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ViewInject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2014">
-              <caret line="124" column="24" lean-forward="false" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+            <state relative-caret-position="114">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/MainActivity.java">
+      <file leaf-file-name="ContentView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ContentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            <state relative-caret-position="114">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="ViewInjectTool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/ViewInjectTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1607">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FillInVinPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/FillInVinPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/SettingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,51 +326,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserCenter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/app/libs/com.mapbar.obd.jar!/com/mapbar/obd/UserCenter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1314">
-              <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-              <folding>
-                <element signature="e#1878#1879#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/TestPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TabPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/TabPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/RegisterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="494">
+              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -1395,7 +1594,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1406,194 +1605,15 @@
             <path>
               <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="com.mapbar.obd.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="com.mapbar.obd.jar" type="ab9368bb:PsiFileNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="com.mapbar.obd.jar" type="ab9368bb:PsiFileNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="com.mapbar.obd.jar" type="ab9368bb:PsiFileNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="fram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="fram" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev_client_android_gsm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev_client_android_gsm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbar" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="obd" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1848,30 +1868,29 @@
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24085365" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1799787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Freeline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Freeline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2296748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1884,7 +1903,9 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1895,6 +1916,116 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/ViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/LayoutUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/GlobalConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#360#361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/common/MainThreadPostUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/EventBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/OnClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ViewInject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/annotation/ContentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/framework/inject/ViewInjectTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/FillInVinPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1963,7 +2094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1971,7 +2101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1979,7 +2108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1987,7 +2115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1995,10 +2122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1314">
           <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding>
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1936#1937#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2186,10 +2309,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapbar/obd/net/android/obd/page/SettingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="11" />
+        <state relative-caret-position="494">
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
           <folding />
         </state>
       </provider>
