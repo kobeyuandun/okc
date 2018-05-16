@@ -125,7 +125,7 @@ android {
     }
 
     dexOptions {    // 打开dex增量编译
-        incremental true
+//        incremental true
 //        jumboMode true
         preDexLibraries true
     }
