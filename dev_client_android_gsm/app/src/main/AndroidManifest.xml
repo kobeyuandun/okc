@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.mapbar.obd.net.android"
+    package="com.free.base"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:installLocation="auto"
     android:versionCode="1"
@@ -62,14 +62,14 @@
         android:targetSdkVersion="15"/>
 
     <application
-        android:name=".OBDApplication"
+        android:name="com.free.OBDApplication"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.free.business.splash.SplashActivity"
             android:clearTaskOnLaunch="false"
             android:configChanges="orientation|keyboardHidden|keyboard"
             android:label="@string/app_name"
@@ -81,6 +81,7 @@
                 <category android:name="android.intent.category.LAUNCHER"></category>
             </intent-filter>
         </activity>
+        <activity android:name="com.free.business.main.MainActivity" />
 
     </application>
 

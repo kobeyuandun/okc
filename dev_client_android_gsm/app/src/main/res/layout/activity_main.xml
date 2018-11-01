@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6px"
+            android:layout_above="@+id/rg_bottom_id"
+            android:background="@drawable/shadow" />
+
+        <RadioGroup
+            android:id="@+id/rg_bottom_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rb_footer1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@null"-->
+                <!--android:button="@null"-->
+                <!--android:checked="true"-->
+                <!--android:drawablePadding="3dp"-->
+                <!--android:drawableTop="@drawable/rb_footer1_selector"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/home_buy_list"-->
+                <!--android:textColor="@drawable/rb_footer_backgroud"-->
+                <!--android:textSize="12sp" />-->
+
+            <!--<Space-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1" />-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rb_footer2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@null"-->
+                <!--android:button="@null"-->
+                <!--android:drawablePadding="3dp"-->
+                <!--android:drawableTop="@drawable/rb_footer2_selector"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/home_find_best"-->
+                <!--android:textColor="@drawable/rb_footer_backgroud"-->
+                <!--android:textSize="11sp" />-->
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rb_footer3"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@null"-->
+                <!--android:button="@null"-->
+                <!--android:drawablePadding="3dp"-->
+                <!--android:drawableTop="@drawable/rb_footer3_selector"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/home_mine"-->
+                <!--android:textColor="@drawable/rb_footer_backgroud"-->
+                <!--android:textSize="12sp" />-->
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</FrameLayout>
+
