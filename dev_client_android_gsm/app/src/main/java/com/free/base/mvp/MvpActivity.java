@@ -1,7 +1,6 @@
 package com.free.base.mvp;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 
 import com.free.base.mvp.delegate.ActivityMvpDelegate;
 import com.free.base.mvp.delegate.ActivityMvpDelegateImpl;
@@ -25,7 +24,6 @@ public abstract class MvpActivity<V extends MvpView, P extends MvpPresenter<V>> 
         return presenter;
     }
 
-    @NonNull
     @Override
     public abstract P createPresenter();
 

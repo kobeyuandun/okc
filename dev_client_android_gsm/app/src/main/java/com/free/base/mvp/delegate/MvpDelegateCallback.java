@@ -1,6 +1,5 @@
 package com.free.base.mvp.delegate;
 
-import android.support.annotation.NonNull;
 
 import com.free.base.mvp.MvpPresenter;
 import com.free.base.mvp.MvpView;
@@ -32,7 +31,6 @@ public interface MvpDelegateCallback<V extends MvpView, P extends MvpPresenter<V
      *
      * @return the created presenter instance
      */
-    @NonNull
     P createPresenter();
 
     /**

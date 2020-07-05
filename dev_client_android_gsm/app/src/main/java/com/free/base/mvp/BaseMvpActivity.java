@@ -1,7 +1,6 @@
 package com.free.base.mvp;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 
 import com.free.OBDApplication;
 import com.free.base.dragger.component.ActivityComponent;
@@ -17,7 +16,6 @@ public abstract class BaseMvpActivity<V extends MvpView, P extends MvpPresenter<
     private Unbinder unbinder;
     private ActivityComponent mActivityComponent;
 
-    @NonNull
     @Override
     public P createPresenter() {
         setupComponent(OBDApplication.getMyAppComponent());

@@ -1,6 +1,7 @@
 package com.free.base.retrofit.json;
 
-import android.support.annotation.Keep;
+
+import androidx.annotation.Keep;
 
 @Keep
 public class Data<T> {

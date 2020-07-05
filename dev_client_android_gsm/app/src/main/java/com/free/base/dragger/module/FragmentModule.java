@@ -1,10 +1,10 @@
 package com.free.base.dragger.module;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
 
 import com.free.base.dragger.scope.FragmentScope;
 
+import androidx.fragment.app.Fragment;
 import dagger.Module;
 import dagger.Provides;
 

@@ -2,8 +2,6 @@ package com.free.base.mvp;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.free.base.mvp.delegate.FragmentMvpDelegate;
@@ -12,6 +10,9 @@ import com.free.base.mvp.delegate.MvpDelegateCallback;
 import com.trello.rxlifecycle2.components.support.RxFragment;
 
 import javax.inject.Inject;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 public abstract class MvpFragment<V extends MvpView, P extends MvpPresenter<V>> extends RxFragment implements MvpDelegateCallback<V, P>, MvpView {
 

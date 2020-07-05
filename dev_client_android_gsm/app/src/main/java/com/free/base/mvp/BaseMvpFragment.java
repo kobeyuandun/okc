@@ -1,7 +1,6 @@
 package com.free.base.mvp;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +11,7 @@ import com.free.base.dragger.component.FragmentComponent;
 import com.free.base.dragger.component.MyAppComponent;
 import com.free.base.dragger.module.FragmentModule;
 
+import androidx.annotation.Nullable;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 

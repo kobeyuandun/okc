@@ -19,8 +19,6 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.v4.content.FileProvider;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
@@ -30,6 +28,9 @@ import android.webkit.MimeTypeMap;
 import java.io.File;
 import java.util.List;
 import java.util.UUID;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.FileProvider;
 
 import static android.app.ActivityManager.RunningAppProcessInfo;
 import static android.app.ActivityManager.RunningServiceInfo;

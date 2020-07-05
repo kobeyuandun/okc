@@ -2,12 +2,13 @@ package com.free.base.mvp.delegate;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.View;
 
 import com.free.base.mvp.MvpPresenter;
 import com.free.base.mvp.MvpView;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 
 public interface FragmentMvpDelegate<V extends MvpView, P extends MvpPresenter<V>> {

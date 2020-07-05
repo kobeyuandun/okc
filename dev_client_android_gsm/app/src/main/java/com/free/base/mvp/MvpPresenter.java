@@ -1,6 +1,7 @@
 package com.free.base.mvp;
 
-import android.support.annotation.UiThread;
+
+import androidx.annotation.UiThread;
 
 /**
  * MvpPresenter-Presenter 的基础类，控制的 MvpView 的子类

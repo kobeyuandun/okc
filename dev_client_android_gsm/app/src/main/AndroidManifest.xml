@@ -57,9 +57,7 @@
         android:name="UMENG_CHANNEL"
         android:value="${UMENG_CHANNEL_VALUE}"/>
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="15"/>
+    <uses-sdk android:targetSdkVersion="15"/>
 
     <application
         android:name="com.free.OBDApplication"
