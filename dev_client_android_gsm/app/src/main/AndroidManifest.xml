@@ -80,6 +80,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.free.business.main.MainActivity" />
+        <activity android:name="com.free.business.touchexplanation.TouchActivity" />
+        <activity android:name="com.free.business.hook.StubActivity" />
+        <activity android:name="com.free.business.flowlayout.FlowLayout1Activity" />
+        <activity android:name="com.free.business.flowlayout.StartActivity" />
 
     </application>
 
