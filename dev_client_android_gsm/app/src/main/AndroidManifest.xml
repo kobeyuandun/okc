@@ -84,6 +84,7 @@
         <activity android:name="com.free.business.hook.StubActivity" />
         <activity android:name="com.free.business.flowlayout.FlowLayout1Activity" />
         <activity android:name="com.free.business.flowlayout.StartActivity" />
+        <activity android:name="com.free.business.viewpagerlazy.LazyExtendActivity" />
 
     </application>
 

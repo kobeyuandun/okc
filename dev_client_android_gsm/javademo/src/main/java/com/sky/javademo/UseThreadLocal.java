@@ -1,12 +1,12 @@
 package com.sky.javademo;
 
 
-import com.sun.istack.internal.Nullable;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+
+import androidx.annotation.Nullable;
 
 /**
  * @author yuandunbin782

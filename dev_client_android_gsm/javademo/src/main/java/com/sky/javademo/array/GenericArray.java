@@ -1,6 +1,7 @@
 package com.sky.javademo.array;
 
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 /**
  * @author yuandunbin782

@@ -14,7 +14,7 @@ import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.free.base.R;
 import com.free.base.mvp.BaseMvpActivity;
 import com.free.base.utils.StateBarTranslucentUtils;
-import com.free.business.main.MainActivity;
+import com.free.business.viewpagerlazy.LazyExtendActivity;
 
 import butterknife.BindView;
 
@@ -51,7 +51,7 @@ public class SplashActivity extends BaseMvpActivity<SplashView, SplashPresent> i
 
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, LazyExtendActivity.class));
                 finish();
             }
         }, 2000);
