@@ -1,15 +1,11 @@
 package com.free.business.viewpagerlazy;
 
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.util.Log;
 
 import com.free.base.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,20 +14,21 @@ import androidx.viewpager.widget.ViewPager;
 
 /**
  * @author yuandunbin
- * @date 2020/7/8
+ * @date 2020/7/14
  */
-public class LazyExtendActivity extends AppCompatActivity {
-    private static final String TAG = "LazyExtendActivity";
-    private ViewPager viewPager;
-    private BottomNavigationView bottomNavigationView;
-    private Handler handler = new Handler(Looper.getMainLooper());
+public class LazyExtend2Activity extends AppCompatActivity {
+    private ViewPager viewPager;  //对应的viewPager
+    private ArrayList<Fragment> fragmentsList;//view数组
 
+    private BottomNavigationView bottomNavigationView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lazy);
-        viewPager = findViewById(R.id.viewPager);
+        setContentView(R.layout.activity_lazy2);
+        viewPager = findViewById(R.id.viewpager01);
+
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.fragment_1:
@@ -53,25 +50,23 @@ public class LazyExtendActivity extends AppCompatActivity {
             return false;
         });
 
-        List<Fragment> fragmentList = new ArrayList<>();
-        fragmentList.add(FragmentExtendLazy.newInstance(1));
-        fragmentList.add(FragmentExtendLazy.newInstance(2));
-        fragmentList.add(FragmentExtendLazy.newInstance(3));
-        fragmentList.add(FragmentExtendLazy.newInstance(4));
-        fragmentList.add(FragmentExtendLazy.newInstance(5));
+        fragmentsList = new ArrayList<>();
+        fragmentsList.add(Fragment1.newIntance());
+        fragmentsList.add(Fragment2WithViewPager.newIntance());
+        fragmentsList.add(Fragment3.newIntance());
+        fragmentsList.add(Fragment4.newIntance());
+        fragmentsList.add(Fragment5.newIntance());
 
-        LazyFragmentPagerAdapter lazyFragmentPagerAdapter = new LazyFragmentPagerAdapter(getSupportFragmentManager(), fragmentList);
-        viewPager.setAdapter(lazyFragmentPagerAdapter);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                
+            public void onPageScrolled(int i, float v, int i1) {
+
             }
 
             @Override
-            public void onPageSelected(int position) {
+            public void onPageSelected(int i) {
                 int itemId = R.id.fragment_1;
-                switch (position) {
+                switch (i) {
                     case 0:
                         itemId = R.id.fragment_1;
                         break;
@@ -92,33 +87,11 @@ public class LazyExtendActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onPageScrollStateChanged(int state) {
+            public void onPageScrollStateChanged(int i) {
 
             }
         });
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Log.d(TAG, "curr3000: "+System.currentTimeMillis());
-                Log.d(TAG, "run: "+3000);
-            }
-        },3000);
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Log.d(TAG, "curr2000: "+System.currentTimeMillis());
-                Log.d(TAG, "run: "+2000);
-            }
-        },2000);
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Log.d(TAG, "curr1000: "+System.currentTimeMillis());
-                Log.d(TAG, "run: "+1000);
-            }
-        },1000);
-
+        LazyFragmentPagerAdapter lazyFragmentPagerAdapter = new LazyFragmentPagerAdapter(getSupportFragmentManager(), fragmentsList);
+        viewPager.setAdapter(lazyFragmentPagerAdapter);
     }
 }

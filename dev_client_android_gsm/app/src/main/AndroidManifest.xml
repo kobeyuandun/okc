@@ -85,6 +85,7 @@
         <activity android:name="com.free.business.flowlayout.FlowLayout1Activity" />
         <activity android:name="com.free.business.flowlayout.StartActivity" />
         <activity android:name="com.free.business.viewpagerlazy.LazyExtendActivity" />
+        <activity android:name="com.free.business.viewpagerlazy.LazyExtend2Activity" />
 
     </application>
 

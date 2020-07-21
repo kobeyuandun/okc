@@ -6,16 +6,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.List;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 /**
  * @author yuandunbin
- * @date 2020/7/7
- * ViewPager懒加载LazyFragment封装
+ * @date 2020/7/13
+ * 针对viewpager嵌套viewpager的fragment封装
  */
-public abstract class LazyFragment extends Fragment {
+public abstract class LazyFragment2 extends Fragment {
     private static final String TAG = "LazyFragment";
 
     /**
@@ -42,6 +45,8 @@ public abstract class LazyFragment extends Fragment {
      */
     private boolean currentVisibleState = false;
 
+    FragmentDelegater  mFragmentDelegater;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -67,7 +72,6 @@ public abstract class LazyFragment extends Fragment {
     protected abstract void initView(View rootView);
 
     protected abstract int getLayoutRes();
-
     /**
      * 修改fragment的可见性
      * setUserVisibleHint被调用的两种情况：
@@ -94,7 +98,6 @@ public abstract class LazyFragment extends Fragment {
             }
         }
     }
-
     /**
      * 统一处理用户可见信息
      * 分第一次可见、可见、不可见分发
@@ -103,6 +106,10 @@ public abstract class LazyFragment extends Fragment {
      */
     private void dispatchUserVisibleHint(boolean isVisible) {
         Log.d(TAG, "dispatchUserVisibleHint: ");
+        //事实上作为父Fragment 的 BottomTabFragment2 并没有分发可见事件，他通过 getUserVisibleHint() 得到的结果为false,首先我想到的是能在负责分发事件的方法中判断一下当前父fragment是否可见，如果父fragment 不可见就不进行可见事件的分发
+        if (isVisible && isParentInVisible()){
+            return;
+        }
         if (currentVisibleState == isVisible) {
             return;
         }
@@ -113,8 +120,39 @@ public abstract class LazyFragment extends Fragment {
                 onFragmentFirstVisible();
             }
             onFragmentResume();
+            //在双重ViewPager嵌套的情况下，第一次滑到Frgment 嵌套ViewPager(fragment)的场景的时候
+            //此时只会加载外层Fragment的数据，而不会加载内嵌viewPager中的fragment的数据，因此，我们
+            //需要在此增加一个当外层Fragment可见的时候，分发可见事件给自己内嵌的所有Fragment显示
+            dispatchChildVisibleState(true);
         } else {
             onFragmentPause();
+            dispatchChildVisibleState(false);
+        }
+    }
+
+
+    private boolean isParentInVisible() {
+        Fragment parentFragment = getParentFragment();
+        if (parentFragment instanceof LazyFragment2){
+            LazyFragment2 lazyFragment2 = (LazyFragment2) parentFragment;
+            return !lazyFragment2.isSupportVisible();
+        }
+        return false;
+    }
+
+    public boolean isSupportVisible(){
+        return currentVisibleState;
+    }
+
+    private void dispatchChildVisibleState(boolean b) {
+        FragmentManager childFragmentManager = getChildFragmentManager();
+        List<Fragment> fragments = childFragmentManager.getFragments();
+        if (fragments!=null){
+            for (Fragment fragment:fragments){
+                if (fragment instanceof LazyFragment2 && !fragment.isHidden() && fragment.getUserVisibleHint()){
+                    ((LazyFragment2)fragment).dispatchUserVisibleHint(b);
+                }
+            }
         }
     }
 
@@ -148,9 +186,13 @@ public abstract class LazyFragment extends Fragment {
 
     protected abstract void onFragmentFirstVisible();
 
+    public void setFragmentDelegater(FragmentDelegater fragmentDelegater) {
+        mFragmentDelegater = fragmentDelegater;
+    }
     @Override
     public void onResume() {
         super.onResume();
+        logD( "onResume: ");
         Log.d(TAG, "onResume: ");
         //在滑动或者跳转的过程中，第一次创建fragment的时候均会调用onResume方法，类似于在tab1 滑到tab2，此时tab3会缓存，这个时候会调用tab3 fragment的
         //onResume，所以，此时是不需要去调用 dispatchUserVisibleHint(true)的，因而出现了下面的if
@@ -171,6 +213,7 @@ public abstract class LazyFragment extends Fragment {
     @Override
     public void onPause() {
         super.onPause();
+        logD( "onPause: ");
         Log.d(TAG, "onPause: ");
         if (currentVisibleState && getUserVisibleHint()){
             dispatchUserVisibleHint(false);
@@ -180,7 +223,14 @@ public abstract class LazyFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
+        logD("onDestroyView");
         isViewCreated = false;
         isFirstVisible = false;
+    }
+
+    private void logD(String infor) {
+        if (mFragmentDelegater != null) {
+            mFragmentDelegater.dumpLifeCycle(infor);
+        }
     }
 }
